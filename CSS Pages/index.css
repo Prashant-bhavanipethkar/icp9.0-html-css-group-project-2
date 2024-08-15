@@ -236,5 +236,24 @@
     padding: 15px;
 }
 
+.enquiry{
+    color: #232323;
+    background-color: #65AA98;
+    width: 110px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.enquiry:hover{
+    color: white;
+    background-color:#232323;
+    width: 110px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
 
 
