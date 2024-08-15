@@ -1,3 +1,9 @@
 .text-centre{
     text-align: center;
 }
+
+.footer{
+    height: 300px;
+    background-color: #65AA98;
+    margin-top: 100px;
+}
