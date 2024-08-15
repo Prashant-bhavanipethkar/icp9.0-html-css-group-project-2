@@ -57,7 +57,7 @@
 }
 
 .home{
-    margin-left: 300px;
+    margin-left: 170px;
     margin-top: 34px;
     background-color: white;
     padding: 05px 15px;
@@ -81,7 +81,8 @@
     padding: 05px 15px;
     padding-bottom: 10px;
     border-radius: 10px;
-    height: 25px;  
+    height: 25px;
+    width: 150px;  
 }
 
 .register-login:hover{
