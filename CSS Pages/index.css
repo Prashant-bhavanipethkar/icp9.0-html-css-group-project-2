@@ -141,12 +141,12 @@
 .categories-of-plants{
     background-color: #ffd3cc;
     height: 150px;  
-    width: 1400px;
+    width: 1000px;
     margin: 0px auto;
     padding: 15px 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 10px;
     position: relative;
     
@@ -159,7 +159,6 @@
     background-color: #fff7f6;
     border-radius: 50%;
     padding: 10px;
-    margin-left: 90px;
     box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
     
 }
@@ -172,7 +171,17 @@
 
 .position{
     position: relative;
-    right: -100px;
+    right: -5px;
+}
+
+.position2{
+    position: relative;
+    right: -15px;
+}
+
+.position3{
+    position: relative;
+    right: -35px;
 }
 
 .subheading{
