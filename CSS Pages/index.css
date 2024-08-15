@@ -254,7 +254,7 @@
     background-color:#232323;
     width: 110px;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 0px;
     transition: 0.5s;
     cursor: pointer;
 }
