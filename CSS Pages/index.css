@@ -1,0 +1,183 @@
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.search-icon{
+    height: 30px;
+}
+
+.cart-icon{
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.cart-icon:hover{
+    cursor: pointer;
+}
+
+.search-icon{
+    height: 18px;
+    position: relative;
+    top: 45px;
+    right: 30px;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.logo-searchbar-container{
+    display: flex;
+    height: 100px;
+    margin: 0px;
+    background-color: #65AA98;
+    border-radius: 10px;
+}
+
+.searchbar{
+    height: 30px;
+    width: 600px;
+    margin-left: 35px;
+    margin-top: 33px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 2px rgb(173, 173, 173);
+    font-family: cursive;
+    color: #2225;    
+}
+
+.searchbar:hover{
+    box-shadow: 0px 0px 5px 2px rgb(119, 119, 119); 
+}
+
+.home{
+    margin-left: 300px;
+    margin-top: 34px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.home:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #222525;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.register-login{
+    margin-left: 20px;
+    margin-top: 32px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;  
+}
+
+.register-login:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #222525;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.font-size{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.font-family{
+    font-family: cursive;
+}
+
+.body-bg-color{
+    background-color: #f8f5f2;
+}
+
+.font-color{
+    color: #222525;
+}
+
+.banner-01{
+    height: 400px;
+    margin: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgb(199, 199, 199);
+}
+
+.banner-01-container{
+    display: flex;
+   
+}
+
+.discription-container{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.content1{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
+    margin-bottom: 30px;
+
+}
+
+.categories-of-plants{
+    background-color: #ffd3cc;
+    height: 150px;  
+    width: 1400px;
+    margin: 0px auto;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+.plants-icon{
+    height: 100px;
+    width: 100px;
+    background-color: #fff7f6;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
+    
+}
+
+.plants-icon:hover{
+    box-shadow: 0px 0px 10px 1px #232323;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.position{
+    position: relative;
+    right: -100px;
+}
+
+.subheading{
+    margin: 0px;
+}
+
+
+
