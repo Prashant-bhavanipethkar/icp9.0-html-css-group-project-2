@@ -137,7 +137,15 @@ p {
 .discription-2{
     font-size: 15px;
 }
+@media (max-width: 768px) {
+    .plant-card {
+        width: 48%; /* Adjust width for smaller screens */
+    }
+}
 
-
-
+@media (max-width: 480px) {
+    .plant-card {
+        width: 100%; /* Full width for very small screens */
+    }
+}
 
