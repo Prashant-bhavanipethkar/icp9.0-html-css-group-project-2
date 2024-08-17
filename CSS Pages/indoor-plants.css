@@ -5,6 +5,10 @@ body {
     background-color: #f0f0f0;
 }
 
+.font-family{
+    font-family: cursive;
+}
+
 .content-container {
     max-width: 1200px;
     margin: 30px auto;
