@@ -239,7 +239,7 @@
 
 .enquiry{
     color: #232323;
-    background-color: #65AA98;
+    background-color:#078080;
     width: 110px;
     padding: 15px;
     border-radius: 5px;
@@ -254,7 +254,7 @@
     background-color:#232323;
     width: 110px;
     padding: 15px;
-    border-radius: 0px;
+    border-radius: 20px;
     transition: 0.5s;
     cursor: pointer;
 }
