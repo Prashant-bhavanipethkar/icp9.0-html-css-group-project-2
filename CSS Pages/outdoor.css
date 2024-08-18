@@ -46,9 +46,14 @@
     color: #4CAF50;
     font-size: 20px;
 }
+.rating{
+    width: 18px;
+    height: 18px;
+    margin-top: 13px;
+}
 .btn{
     display: block;
-    margin: 10px auto;
+    margin: 4px auto;
     border-radius: 5px;
     padding: 5px 12px;
     color: white;
@@ -60,6 +65,9 @@
     font-size: 16px;
     box-shadow: 0px 0px 5px 1px #476b6b;
     cursor: pointer;
+}
+.buy-now{
+    text-decoration: none;
 }
 
 
