@@ -15,3 +15,14 @@
 .colour{
     color: #65AA98;
 }
+.plant-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.plant-card{
+    width: 220px;
+    height: 200px;
+    background-color: #ffd3cc;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
