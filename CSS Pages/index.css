@@ -67,9 +67,8 @@
 }
 
 .home:hover{
-    color: white;
     cursor: pointer;
-    background-color: #222525;
+    background-color: white;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -86,9 +85,8 @@
 }
 
 .register-login:hover{
-    color: white;
     cursor: pointer;
-    background-color: #222525;
+    background-color: white;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -251,12 +249,13 @@
 
 .enquiry:hover{
     color: white;
-    background-color:#232323;
+    background-color:#078080;
     width: 110px;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
+    width: 120px;
 }
 
 .footer-icon{
@@ -290,7 +289,6 @@
 
 .footer-container{
     display: flex;
-    margin-left: 210px;
 }
 
 .feature1-email-phone-location{
