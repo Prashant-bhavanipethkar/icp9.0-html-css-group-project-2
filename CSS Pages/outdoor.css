@@ -34,6 +34,12 @@
     padding: 10px;
     box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
 }
-
+.plant-img{
+    height: 200px;
+    width: 190px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 20px;
+}
 
 
