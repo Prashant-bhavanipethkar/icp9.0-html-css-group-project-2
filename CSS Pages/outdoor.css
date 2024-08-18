@@ -16,7 +16,7 @@
     color: #65AA98;
 }
 .outdoor-plants{
-    background-color: #ffd3cc; 
+    background-color:white; 
     width: 1150px;
     margin: 0px auto;
     padding: 15px 50px;
@@ -25,7 +25,6 @@
     justify-content: space-around;
     border-radius: 10px;
     margin-bottom: 20px;
-    position: relative;
 }
 .plant-card{
     width: 220px;
@@ -40,6 +39,21 @@
     display: block;
     margin: 15px auto;
     border-radius: 20px;
+}
+.price{
+    color: #4CAF50;
+    font-size: 20px;
+}
+.btn{
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px 12px;
+    color: white;
+    background-color:#078080;
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 
