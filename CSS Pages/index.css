@@ -308,6 +308,12 @@
 .fb{
     height: 30px;
     padding-left: 20px;
+    cursor: pointer;
+}
+
+.fb:hover{
+    position: relative;
+    top: 10px;
 }
 
 .fb-container{
