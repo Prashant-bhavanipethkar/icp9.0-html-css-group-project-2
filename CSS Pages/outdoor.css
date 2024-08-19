@@ -44,6 +44,10 @@
     margin: 5px auto;
     border-radius: 20px;
 }
+.description{
+    color: #666;
+    font-size: 15px;
+}
 .price{
     color: #4CAF50;
     font-size: 20px;
