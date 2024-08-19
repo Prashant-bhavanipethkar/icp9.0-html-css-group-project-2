@@ -260,6 +260,14 @@
     width: 120px;
 }
 
+.map{
+    position: relative;
+    bottom: 110px;
+    left: 450px;
+    display: flex;
+
+}
+
 
 
 
