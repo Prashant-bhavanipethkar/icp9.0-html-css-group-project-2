@@ -7,83 +7,8 @@
     <title>Nursery Plants</title>
     <link rel="stylesheet" href="./../CSS Pages/index.css">
     <link rel="stylesheet" href="./../CSS Pages/styles.css">
-    <style>
-        * {
-            font-family: cursive;
-        }
-
-        .main-container {
-            text-align: center;
-            box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
-            border-radius: 10px;
-            margin: 0 60px;
-            margin-bottom: 20px;
-        }
-
-        .main-container h1 {
-            position: relative;
-            top: 30px;
-            margin-top: 30px;
-            font-size: 35px;
-            color: #45a049;
-        }
-
-        .main-container p{
-            position: relative;
-            font-size: 20px;
-            top : 20px;
-            margin-bottom: 40px;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-
-        }
-
-        .card {
-            width: 30%;
-            text-align: center;
-            padding: 20px;
-            margin: 0 40px;
-            box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
-            border-radius: 10px;
-
-        }
-
-        .card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 5px 5px 10px 2px rgb(199, 199, 199);
-
-        }
-
-        .price {
-            font-size: 1.2em;
-            color: #333;
-        }
-
-        .price span {
-            text-decoration: line-through;
-            color: #999;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-
-        button:hover {
-            background-color: #1b6c1f;
-        }
-    </style>
+    <link rel="stylesheet" href="./../CSS Pages/plant-seeds.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- For star ratings -->
 </head>
 
 <body>
@@ -100,31 +25,52 @@
     </div>
 
 
-    <br><br><br><br><br>
-
-    <div class="main-container">
+    <div class="content-container">
         <h1>Plant Seeds</h1>
-        <p>🌱 Discover a wide variety of quality plant seeds for your garden, perfect for every green thumb! 🌿</p>
+        <p><b>🌱 Discover a wide variety of quality plant seeds for your garden, perfect for every green thumb! 🌿</b></p>
+    </div>
+    <div class="content-container">
         <div class="container">
             <div class="card">
                 <img src="./../Images/plant-seeds/tulsi.webp" alt="tulsi Plant">
                 <h2>Tulsi</h2>
                 <p>Tulsi plant seeds are perfect for growing a sacred herb with medicinal and aromatic benefits.</p>
-                <div class="price">₹ 40 <span>₹ 50</span></div>
+                <div class="price"><span>₹ 50</span>₹ 40 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/marigold.webp" alt="marigold">
                 <h2>Marigold</h2>
                 <p>Marigold plant seeds: vibrant, easy-to-grow blooms that add bright color to any garden.</p>
-                <div class="price">₹ 60 <span>₹ 75</span></div>
+                <div class="price"><span>₹ 75</span>₹ 60 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/lettuse.webp" alt="lettuce">
                 <h2>Lettuce</h2>
                 <p>Lettuce plant seeds yield crisp, fresh leaves, perfect for salads, sandwiches, and healthy meals.</p>
-                <div class="price">₹ 45 <span>₹ 55</span></div>
+                <div class="price"><span>₹ 55</span>₹ 45 </div> 
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
 
@@ -136,7 +82,14 @@
                 <img src="./../Images/plant-seeds/tomato.avif" alt="tomato Plant">
                 <h2>Tomato</h2>
                 <p>Easy to grow, yielding juicy, flavorful tomatoes for your garden or kitchen.</p>
-                <div class="price">₹ 30 <span>₹ 45</span></div>
+                <div class="price"><span>₹ 45</span>₹ 30 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
@@ -144,14 +97,28 @@
                 <h2>broccoli</h2>
                 <p>Premium broccoli plant seeds, perfect for healthy, vibrant growth, fresh, nutritious heads
                 </p>
-                <div class="price">₹ 40 <span>₹ 55</span></div>
+                <div class="price"><span>₹ 55</span>₹ 40 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/Capsicum.avif" alt="Capsicum">
                 <h2>Capsicum</h2>
                 <p>Premium quality Capsicum seeds for vibrant, healthy plants with crisp, flavorful peppers</p>
-                <div class="price">₹ 55 <span>₹ 75</span></div>
+                <div class="price"><span>₹ 75</span>₹ 55 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
         </div>
@@ -161,14 +128,28 @@
                 <h2>carrot</h2>
                 <p>High-quality carrot seeds ideal for growing crisp, sweet, and vibrant orange carrots in your garden.
                 </p>
-                <div class="price">₹ 25 <span>₹ 40</span></div>
+                <div class="price"><span>₹ 40</span>₹ 25 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/Chilli.avif" alt="Chilli">
                 <h2>Chilli</h2>
                 <p>High-quality chilli plant seeds for a bountiful harvest of vibrant, spicy, and flavorful peppers.</p>
-                <div class="price">₹ 60 <span>₹ 80</span></div>
+                <div class="price"><span>₹ 80</span>₹ 60 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
@@ -176,7 +157,14 @@
                 <h2>Coriander</h2>
                 <p>Coriander plant seeds, also known as cilantro, offer a fragrant spice with citrusy and earthy
                     flavors.</p>
-                <div class="price">₹ 55 <span>₹ 65</span></div>
+                <div class="price"><span>₹ 65</span>₹ 55 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
         </div>
@@ -185,21 +173,42 @@
                 <img src="./../Images/plant-seeds/cucumber.avif" alt="cucumber Plant">
                 <h2>cucumber</h2>
                 <p>Cucumber plant seeds yield crisp, refreshing cucumbers ideal for salads and pickling.</p>
-                <div class="price">₹ 55 <span>₹ 60</span></div>
+                <div class="price"><span>₹ 60</span>₹ 55 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/Lotus.avif" alt="lotus">
                 <h2>lotus</h2>
                 <p>Lotus plant seeds are aquatic seeds known for their beauty and spiritual symbolism.</p>
-                <div class="price">₹ 70 <span>₹ 85</span></div>
+                <div class="price"><span>₹ 85</span>₹ 70 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
             <div class="card">
                 <img src="./../Images/plant-seeds/vinca.webp" alt="vinca">
                 <h2>Vinca</h2>
                 <p>Vinca plant seeds grow vibrant, low-maintenance flowers perfect for sunny garden spots.</p>
-                <div class="price">₹ 35 <span>₹ 55</span></div>
+                <div class="price"><span>₹ 55</span> ₹ 40 </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
                 <button>Buy Now</button>
             </div>
         </div>
