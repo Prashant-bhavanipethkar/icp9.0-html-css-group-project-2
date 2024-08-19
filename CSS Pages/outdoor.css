@@ -64,6 +64,8 @@
     font-size: 15px;
 }
 .btn:hover{
+    background-color: #45a049; 
+    border-radius: 10px;
     font-size: 16px;
     box-shadow: 0px 0px 5px 1px #476b6b;
     cursor: pointer;
