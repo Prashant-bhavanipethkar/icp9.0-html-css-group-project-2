@@ -38,10 +38,10 @@
     transition: transform 0.2s ease-in-out;
 }
 .plant-img{
-    height: 200px;
-    width: 190px;
+    width: 98%;
+    height: 250px;
     display: block;
-    margin: 15px auto;
+    margin: 5px auto;
     border-radius: 20px;
 }
 .price{
