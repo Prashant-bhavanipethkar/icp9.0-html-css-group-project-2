@@ -17,6 +17,9 @@
 
 .cart-icon:hover{
     cursor: pointer;
+    position: relative;
+    top: 5px;
+    transition: 0.5s;
 }
 
 .search-icon{
@@ -236,8 +239,8 @@
 }
 
 .enquiry{
-    color: #232323;
-    background-color:#078080;
+    color:white;
+    background-color:#f9bcb3;
     width: 110px;
     padding: 15px;
     border-radius: 5px;
@@ -245,11 +248,10 @@
     bottom: 15px;
     left: 25px;
     margin-bottom: 50px;
+ 
 }
 
 .enquiry:hover{
-    color: white;
-    background-color:#078080;
     width: 110px;
     padding: 15px;
     border-radius: 5px;
@@ -258,74 +260,7 @@
     width: 120px;
 }
 
-.footer-icon{
-    height: 30px;
-}
 
-.features{
-    display: flex;
-    margin-bottom: 0px;
-}
-
-.features-heading{
-  margin-left: 100px;
-}
-
-.info{
-    margin-left: 15px;
-    position: relative;
-    bottom: 10px;
-    font-size: 15px;
-}
-
-.social-media-icon-container{
-    display: flex;
-}
-
-.social-media-icon{
-    height: 20px;
-    margin-left: 15px;
-}
-
-.footer-container{
-    display: flex;
-}
-
-.feature1-email-phone-location{
-    background-color: #65AA98;
-    padding-left: 100px;
-    width: 400px;
-    height: 300px;
-    padding-top: 80px;
-}
-
-.social-media-icon-container{
-    background-color: brown;
-}
-
-.fb{
-    height: 30px;
-    padding-left: 20px;
-    cursor: pointer;
-}
-
-.fb:hover{
-    position: relative;
-    top: 10px;
-}
-
-.fb-container{
-    margin-left: 30px;
-}
-
-.footer-coonect-us-container{
-    position: relative;
-    top: 80px;
-}
-
-.footer-f{
-    background-color: #65AA98;
-}
 
 
 
