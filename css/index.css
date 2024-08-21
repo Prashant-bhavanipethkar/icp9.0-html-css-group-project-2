@@ -11,7 +11,7 @@
 
 .cart-icon{
     height: 35px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 35px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .home{
-    margin-left: 170px;
+    margin-left: 100px;
     margin-top: 34px;
     background-color: white;
     padding: 05px 15px;
@@ -77,7 +77,7 @@
 }
 
 .register-login{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 32px;
     background-color: white;
     padding: 05px 15px;
@@ -94,6 +94,24 @@
     transition: 0.5s;
 }
 
+.about_us{
+    margin-left: 20px;
+    margin-top: 32px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;  
+}
+
+.about_us:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
 .font-size{
     font-size: 18px;
     font-weight: 300;
@@ -101,6 +119,11 @@
 
 .font-size2{
     font-size: 25px;
+    font-weight: 300;
+}
+
+.font-size3{
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -236,11 +259,12 @@
     margin: 0px auto;
     width: 500px;
     padding: 15px;
+    margin-left: 500px;
 }
 
 .enquiry{
     color:white;
-    background-color:#f9bcb3;
+    background-color:#f45d48;
     width: 110px;
     padding: 15px;
     border-radius: 5px;
