@@ -1,0 +1,55 @@
+.enquiry-container{
+  background-color: white;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 25px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px 2px rgb(217, 217, 217);
+  background-color: #f7f7f7;
+  margin-bottom: 100px;
+}
+
+.info2{
+    height: 28px;
+    width: 250px;
+    border-color: none;
+    border-radius: 5px;
+    border-color: white;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 13px;
+    
+    
+}
+
+.message{
+    height: 80px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: cursive;
+    margin-top: 20px;
+    
+}
+
+.submit{
+    color:white;
+    background-color:#f45d48;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+    border-color: #f45d48;
+    margin: 0px auto;
+    cursor: pointer;
+    
+   
+}
+
