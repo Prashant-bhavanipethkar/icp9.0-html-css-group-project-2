@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .heading{
     background-color: #ffffff;
     padding: 6px;
@@ -17,8 +21,8 @@
     font-size: 2em;
 }
 .outdoor-plants{
+    max-width: 1150px;
     background-color:white; 
-    width: 1150px;
     margin: 0px auto;
     padding: 15px 50px;
     display: flex;
@@ -76,6 +80,18 @@
 }
 .buy-now{
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .plant-card {
+        width: 48%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .plant-card {
+        width: 100%; /* Full width for very small screens */
+    }
 }
 
 
