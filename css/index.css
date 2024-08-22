@@ -1,0 +1,302 @@
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.search-icon{
+    height: 30px;
+}
+
+.cart-icon{
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.cart-icon:hover{
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    transition: 0.5s;
+}
+
+.search-icon{
+    height: 18px;
+    position: relative;
+    top: 45px;
+    right: 30px;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.logo-searchbar-container{
+    display: flex;
+    height: 100px;
+    margin: 0px;
+    background-color: #65AA98;
+    border-radius: 10px;
+}
+
+.searchbar{
+    height: 30px;
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 33px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 2px rgb(173, 173, 173);
+    font-family: cursive;
+    color: #2225;    
+}
+
+.searchbar:hover{
+    box-shadow: 0px 0px 5px 2px rgb(119, 119, 119); 
+}
+
+.home{
+    margin-left: 100px;
+    margin-top: 34px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.home:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.register-login{
+    margin-left: 0px;
+    margin-top: 32px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;
+    width: 150px;  
+}
+
+.register-login:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.about_us{
+    margin-left: 20px;
+    margin-top: 32px;
+    background-color: white;
+    padding: 05px 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;  
+}
+
+.about_us:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.font-size{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.font-size2{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.font-size3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.font-family{
+    font-family: cursive;
+}
+
+.body-bg-color{
+    background-color: #f8f5f2;
+}
+
+.font-color{
+    color: #222525;
+}
+
+.banner-01{
+    height: 400px;
+    margin: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgb(199, 199, 199);
+}
+
+.banner-01-container{
+    display: flex;
+   
+}
+
+.discription-container{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.content1{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
+    margin-bottom: 30px;
+
+}
+
+.our-services{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+}
+
+.categories-of-plants{
+    background-color: #ffd3cc;
+    height: 150px;  
+    width: 1000px;
+    margin: 0px auto;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+.why-you-choose-us{
+    background-color: #ffd3cc;
+    height: 180px;  
+    width: 1000px;
+    margin: 0px auto;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px;
+    position: relative;
+    
+    
+}
+
+.plants-icon{
+    height: 100px;
+    width: 100px;
+    background-color: #fff7f6;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
+    
+}
+
+.plants-icon1{
+    height: 100px;
+    width: 100px;
+    background-color: #fff7f6;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
+    
+}
+
+.plants-icon:hover{
+    box-shadow: 0px 0px 10px 1px #232323;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.position{
+    position: relative;
+    right: -5px;
+}
+
+.position2{
+    position: relative;
+    right: -15px;
+}
+
+.position3{
+    position: relative;
+    right: -35px;
+}
+
+.subheading{
+    margin: 0px;
+}
+
+.our-services-list{
+    margin: 0px auto;
+    width: 500px;
+    padding: 15px;
+    margin-left: 500px;
+}
+
+.enquiry{
+    color:white;
+    background-color:#f45d48;
+    width: 110px;
+    padding: 15px;
+    border-radius: 5px;
+    position: sticky;
+    bottom: 15px;
+    left: 25px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    
+ 
+}
+
+.enquiry:hover{
+    width: 110px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 120px;
+}
+
+.map{
+    position: relative;
+    bottom: 110px;
+    left: 450px;
+    display: flex;
+
+}
+
+
+
+
+
+
+
