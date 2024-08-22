@@ -27,3 +27,21 @@
     font-family: cursive;
     font-size: 16px;
 }
+.login-btn {
+    width: 360px;
+    background-color: #65AA98;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px rgb(173, 173, 173);
+    display: block;
+    margin: 20px auto;
+}
+
+.login-btn:hover {
+    background-color: #579680;
+    box-shadow: 0px 0px 10px 2px rgb(119, 119, 119);
+}
