@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nursery Plants</title>
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/register_login.css">
+
     <link rel="stylesheet" href="./../css/index.css">
     <link rel="stylesheet" href="./../css/styles.css">
     <link rel="stylesheet" href="./../css/enquiry_form.css">
     <link rel="stylesheet" href="./../css/login_register.css">
+
 </head>
 
 <body>
@@ -16,6 +22,17 @@
     <body class="body-bg-color"></body>
 
     <div class="logo-searchbar-container">
+
+        <img src="/img/home_page_Images/logo.png" alt="logo" class="logo">
+        <a href="/../index.html">
+            <p class="home font-size font-family font-color">Home</p>
+        </a>
+        <input type="text" placeholder="Search" class="searchbar">
+        <img src="/img/home_page_Images/search-icon1.png" alt="search-icon" class="search-icon">
+        <p class="register-login font-size font-family font-color">Register | Login</p>
+        <img src="/img/home_page_Images/add-cart.png" alt="cart" class="cart-icon">
+    </div>
+
         <img src="./../img/home_page_Images/logo1-01.png" alt="logo" class="logo">
         <a href="./../index.html" style="text-decoration: none;">
             <p class="home font-size font-family font-color">Home</p>
@@ -32,10 +49,27 @@
     </div>
 
     <br><br><br><br><br>
+    <div class="login-container">
+        <h2 class="text-centre font-family">Login</h2>
+        <form class="login-form">
+        <div class="input-group">
+            <label class="font-family" for="username">Username:</label>
+            <input class="input-field" type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label class="font-family" for="password">Password:</label>
+            <input class="input-field" type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="login-btn font-family">Login</button>
+    </form>
+    </div> 
+
+
 
     <!-- Your Code goes here -->
 
     <h2 class="text-centre font-family">Register / Login</h2>
+
 
           <div class="enquiry-container">
             <label for="info" class="text-centre font-family">Entre your mobile number</label>
@@ -47,7 +81,37 @@
           </div>
 
 
-    <!-- Footer section -->
+
+    <div class="footer-f">
+        <div class="footer-container">
+         <div class="feature1-email-phone-location">
+            <h4 class="features-heading font-family ">Features</h4>
+            <div class="features-main text-centre font-family">
+                <div class="features">
+                    <img src="/img/home_page_Images/email.png" alt="E-mail" class="footer-icon">
+                    <p class="info">XXXXXXXXX@gmail.com</p> 
+                </div>
+        
+                <div class="features">
+                    <img src="/img/home_page_Images/phone-call.png" alt="phone-call" class="footer-icon">
+                    <p class="info">XXXX6584</p> 
+                </div>
+                
+                <div class="features">
+                    <img src="/img/home_page_Images/location.png" alt="location" class="footer-icon">
+                    <p class="info">C11,Indulekha Society,hadapsar, 411001. </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-coonect-us-container">
+            <h4 class="features-heading font-family">Conncet Us</h1>
+            <div class="fb-container">
+                <img src="/img/home_page_Images/facebook.png" alt="facebook" class="fb">
+                <img src="/img/home_page_Images/whatsapp.png" alt="whatsapp" class="fb">
+                <img src="/img/home_page_Images/youtube.png" alt="youtube" class="fb">
+                <img src="/img/home_page_Images/instagram.png" alt="instagram" class="fb">
+    
     <div class="footer-f">
         <div class="footer-container">
             <div class="feature1-email-phone-location">
@@ -92,6 +156,7 @@
                             width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+
 
             </div>
         </div>
