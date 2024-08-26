@@ -38,6 +38,7 @@
     height: 600px;
     width: 700px;
     margin: 0px auto;
+    margin-bottom: 0 px;
 }
 
 .contributors-container{
@@ -67,6 +68,14 @@
 .contributors-name{
  position: relative;
  left: -90px;
+}
+
+.font-size6{
+    font-size: 15px;
+}
+
+.position6{
+    left: -60px;
 }
 
 
