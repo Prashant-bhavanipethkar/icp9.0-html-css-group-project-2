@@ -1,8 +1,9 @@
 .logo{
     height: 70px;
-    width: 70px;
     margin-left: 50px;
     margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 .search-icon{
