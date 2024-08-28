@@ -1,82 +1,92 @@
-body{
+body {
+    font-family: cursive;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 .heading{
-    background-color: #ffffff;
-    padding: 6px;
-    width: 800px;
-    border-radius: 20px;
-    margin: 0px auto;
-    box-shadow: 0px 0px 5px 2px rgb(203, 203, 203);
-    margin-top: 30px;
-    margin-bottom: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.outdoor-icon{
-    height: 35px;
-    width: 40px;
-}
-.colour{
-    color: #4CAF50;
+
+h2 {
+    text-align: center;
     font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
 }
+
 .outdoor-plants{
-    max-width: 1150px;
-    background-color:white; 
-    margin: 0px auto;
-    padding: 15px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }
+
 .plant-card{
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     width: 23%;
-    margin-top: 15px;
     margin-bottom: 20px;
+    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
 }
 .plant-img{
-    width: 98%;
-    height: 250px;
-    display: block;
-    margin: 5px auto;
-    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.plant-card h3 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 20px;
 }
 .description{
+    margin: 10px 0;
     color: #666;
     font-size: 15px;
 }
-.price{
+.plant-card .price{
+    margin: 10px 0;
     color: #4CAF50;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
-.rating{
-    width: 18px;
-    height: 18px;
-    margin-top: 13px;
+.plant-card .rating {
+    margin-top: 10px;
+    color: #FFD700; 
+    margin: 0 2px; /* Space between stars */
 }
+
+.plant-card .rating i {
+    color: #FFD700;
+    margin-right: 5px;
+}
+
+.plant-card:hover {
+    transform: scale(1.05); 
+}
+
 .btn{
-    display: block;
-    margin: 4px auto;
-    border-radius: 5px;
-    padding: 5px 12px;
+    margin-top: 4px;
+    background-color: #078080;
     color: white;
-    background-color:#f45d48;
-    border:none;
-    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 .btn:hover{
-    background-color:#f45d48; 
-    border-radius: 10px;
-    font-size: 16px;
-    box-shadow: 0px 0px 5px 1px #911808;
-    cursor: pointer;
+    background-color: #45a049;
+    border-radius: 20px;
 }
 .buy-now{
     text-decoration: none;
