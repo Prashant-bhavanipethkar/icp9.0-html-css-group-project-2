@@ -1,4 +1,3 @@
-🌱 Plant Nursery Management System:-
 
 🌱 Plant Nursery Management System
 
