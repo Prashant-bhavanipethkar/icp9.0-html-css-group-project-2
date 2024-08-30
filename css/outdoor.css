@@ -94,6 +94,7 @@ h2 {
 .btn:hover{
     background-color: #45a049;
     border-radius: 20px;
+    transition: 0.5s;
 }
 .buy-now{
     text-decoration: none;

@@ -102,6 +102,7 @@ p {
 
 .buy-button:hover {
     background-color: #45a049;
+   
 }
 
 .font-family {
@@ -126,6 +127,7 @@ p {
 .buy-now:hover {
     background-color: #45a049; /* Darker green on hover */
     border-radius: 20px;
+    transition: 0.5s;
 }
 
 .discription-1{
